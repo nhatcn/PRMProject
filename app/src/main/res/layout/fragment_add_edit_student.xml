@@ -66,20 +66,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Khoa/Ngành:"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-            <EditText
-                android:id="@+id/edit_text_course"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Nhập khoa/ngành"
-                android:inputType="text"
-                android:layout_marginBottom="16dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="Chuyên ngành:"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
