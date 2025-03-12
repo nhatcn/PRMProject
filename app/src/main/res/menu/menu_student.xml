@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Thông tin cá nhân"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_enrolled_courses"
+        android:icon="@drawable/ic_book"
+        android:title="Môn học đã đăng ký"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_register_courses"
+        android:icon="@drawable/ic_add"
+        android:title="Đăng ký môn học"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_course_grades"
+        android:icon="@drawable/ic_grade"
+        android:title="Kết quả học tập"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_retake_courses"
+        android:icon="@drawable/ic_refresh"
+        android:title="Đăng ký học lại"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_change_password"
+        android:title="Đổi mật khẩu"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_logout"
+        android:title="Đăng xuất"
+        app:showAsAction="never" />
+</menu>
+

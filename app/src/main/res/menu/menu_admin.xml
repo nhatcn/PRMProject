@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_manage_students"
+        android:icon="@drawable/ic_person"
+        android:title="Quản lý sinh viên"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_manage_courses"
+        android:icon="@drawable/ic_book"
+        android:title="Quản lý môn học"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_manage_majors"
+        android:icon="@drawable/ic_school"
+        android:title="Quản lý chuyên ngành"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_add_student"
+        android:title="Thêm sinh viên mới"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_add_course"
+        android:title="Thêm môn học mới"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_add_major"
+        android:title="Thêm chuyên ngành mới"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_grade_management"
+        android:title="Quản lý điểm số"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_reports"
+        android:title="Báo cáo thống kê"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_system_settings"
+        android:title="Cài đặt hệ thống"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_logout"
+        android:title="Đăng xuất"
+        app:showAsAction="never" />
+</menu>
+
